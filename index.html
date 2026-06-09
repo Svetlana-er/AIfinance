@@ -1,0 +1,343 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Резюме - Финансовый лидер</title>
+<style>
+    /* Базовые стили, совместимые с Word и PowerPoint */
+    body {
+        background: white;
+        font-family: 'Calibri', 'Segoe UI', Arial, Helvetica, sans-serif;
+        color: #1e2a3a;
+        margin: 0 auto;
+        padding: 30px 20px;
+        line-height: 1.4;
+        max-width: 1100px;
+    }
+    h1 {
+        font-size: 32pt;
+        font-weight: bold;
+        color: #0b5e7e;
+        margin-bottom: 10px;
+        border-left: 6px solid #2c7da0;
+        padding-left: 18px;
+    }
+    h2 {
+        font-size: 22pt;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-top: 28px;
+        margin-bottom: 16px;
+        border-bottom: 2px solid #b0c4de;
+        padding-bottom: 4px;
+    }
+    .hero-sub {
+        font-size: 14pt;
+        color: #2c3e50;
+        background: #eef2f7;
+        padding: 14px 20px;
+        margin: 18px 0 20px;
+        border-left: 5px solid #2c7da0;
+    }
+    /* таблицы для сеток (аналог карточек) */
+    .skills-table, .cases-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+    }
+    .skills-table td, .cases-table td {
+        border: 1px solid #cbd5e1;
+        padding: 18px 14px;
+        vertical-align: top;
+        background-color: #f9fafc;
+        width: 25%;
+    }
+    .skill-icon {
+        font-size: 26px;
+        font-weight: bold;
+        color: #1e6f8c;
+    }
+    .skill-title {
+        font-size: 18pt;
+        font-weight: bold;
+        margin: 8px 0 5px;
+        color: #0b5e7e;
+    }
+    .case-card {
+        border: 1px solid #bfd7ea;
+        background: #ffffff;
+        padding: 14px;
+        margin-bottom: 18px;
+        page-break-inside: avoid;
+    }
+    .case-title {
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1f6d8a;
+    }
+    .case-tag {
+        display: inline-block;
+        background: #e2e8f0;
+        padding: 3px 12px;
+        font-size: 11pt;
+        border-radius: 20px;
+        margin: 8px 0;
+    }
+    .role-item {
+        margin-bottom: 22px;
+        border-left: 4px solid #2c7da0;
+        padding-left: 18px;
+        background: #ffffff;
+    }
+    .role-title {
+        font-size: 18pt;
+        font-weight: bold;
+        color: #1e4660;
+    }
+    .role-date {
+        font-weight: normal;
+        font-size: 12pt;
+        color: #4a627a;
+    }
+    .tools-tags {
+        margin: 16px 0;
+    }
+    .tool-tag {
+        display: inline-block;
+        background: #e2e8f0;
+        padding: 6px 16px;
+        margin: 6px 8px 6px 0;
+        font-size: 11pt;
+        border-radius: 30px;
+        color: #1e3a5f;
+    }
+    .company-header {
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+    .company-name {
+        font-size: 24pt;
+        font-weight: bold;
+        color: #1f5e7e;
+    }
+    .education-box {
+        background: #f1f5f9;
+        padding: 18px 22px;
+        border-left: 6px solid #f4a261;
+        margin: 20px 0;
+    }
+    hr {
+        margin: 20px 0;
+        border: 0.5px solid #cbd5e1;
+    }
+    .footer {
+        text-align: center;
+        font-size: 10pt;
+        color: #64748b;
+        margin-top: 40px;
+        border-top: 1px solid #cbd5e1;
+        padding-top: 16px;
+    }
+    ul {
+        margin: 8px 0 0 18px;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 6px;
+    }
+    @media print {
+        body {
+            margin: 0;
+            padding: 0.5cm;
+        }
+        .tool-tag, .case-tag {
+            background: #e9eef3;
+            print-color-adjust: exact;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- ГРАДИЕНТНЫЙ ЗАГОЛОВОК (заменён на цветной) -->
+<h1>Finance Executive & Strategic Business Partner</h1>
+<div class="hero-sub">
+    Seasoned Finance professional with vast experience in FP&A, Controlling, Manufacturing Finance, 
+    transformational projects in multinational FMCG and tobacco companies.
+</div>
+
+<!-- КАРТОЧКИ НАВЫКОВ (таблица для совместимости) -->
+<h2>Ключевые компетенции</h2>
+<table class="skills-table">
+    <tr>
+        <td>
+            <div class="skill-icon">📊</div>
+            <div class="skill-title">FP&A & Controlling</div>
+            <p>Бюджетирование, консолидация, трансформация процессов, повышение ROI.</p>
+        </td>
+        <td>
+            <div class="skill-icon">🏭</div>
+            <div class="skill-title">Manufacturing Finance</div>
+            <p>Управление затратами, CAPEX, productivity KPI, zero-loss подход.</p>
+        </td>
+        <td>
+            <div class="skill-icon">🤝</div>
+            <div class="skill-title">Cross‑functional leadership</div>
+            <p>Команды до 30+ человек, партнёрство с Sales, Ops, Supply Chain.</p>
+        </td>
+        <td>
+            <div class="skill-icon">📈</div>
+            <div class="skill-title">Financial modeling & ROI</div>
+            <p>Анализ инвестиций, сценарное моделирование, data‑driven решения.</p>
+        </td>
+    </tr>
+</table>
+
+<!-- ОПЫТ РАБОТЫ -->
+<h2>Карьерный путь</h2>
+
+<!-- Philip Morris -->
+<div class="company-header">
+    <span class="company-name">Philip Morris Sales and Marketing</span> 
+    <span style="background:#e9ecef; padding:3px 12px; border-radius:20px; font-size:11pt;">Sep 2016 – настоящее время</span>
+</div>
+
+<div class="role-item">
+    <div class="role-title">Manager Cost Controlling <span class="role-date">(Feb 2025 – current)</span></div>
+    <p>Leading Finance transformation agenda within Cost controlling scope:</p>
+    <ul>
+        <li>Leading Cost controlling team of 20 people</li>
+        <li>Оптимизация процессов бюджетирования и фактического закрытия затрат</li>
+        <li>Повышение ценности отчетности для бизнес-решений</li>
+        <li>Поддержка инвестиционных решений и максимизация ROI</li>
+    </ul>
+</div>
+
+<div class="role-item">
+    <div class="role-title">Manager Operations Finance <span class="role-date">(Feb 2023 – Feb 2025)</span></div>
+    <p>Business partner Operations (Procurement, Supply chain, Manufacturing) Russia</p>
+    <ul>
+        <li>Команда Operations Finance из 14 человек: end-to-end процессы</li>
+        <li>Внедрение zero-loss mindset, KPI производительности</li>
+        <li>CAPEX management с фокусом на ROI</li>
+    </ul>
+</div>
+
+<div class="role-item">
+    <div class="role-title">Head of FP&A (Maghreb) <span class="role-date">(Nov 2021 – Feb 2023)</span></div>
+    <p>Remote assignment — Philip Morris Maghreb cluster (Algeria, Morocco, Tunisia)</p>
+    <ul>
+        <li>Управление FP&A командами в каждой стране + координация с Global teams</li>
+        <li>Подготовка и консолидация бюджетных циклов</li>
+        <li>Внедрение новых операционных моделей для дистрибьютора Morocco</li>
+    </ul>
+</div>
+
+<div class="role-item">
+    <div class="role-title">Finance and Administrative Manager (Area Centre) <span class="role-date">(Sep 2016 – Nov 2021)</span></div>
+    <p>Business Partner для коммерческой функции (Урал/Волга)</p>
+    <ul>
+        <li>Финансовое лидерство: партнерство в достижении целей</li>
+        <li>Управление доходностью каналов и категорий</li>
+        <li>Разработка Rolling Forecasts, KPI, запуск IQOS (new product category)</li>
+    </ul>
+</div>
+
+<!-- PepsiCo -->
+<div class="company-header" style="margin-top: 35px;">
+    <span class="company-name">PepsiCo Holdings</span> 
+    <span style="background:#e9ecef; padding:3px 12px; border-radius:20px; font-size:11pt;">Sep 1997 – Sep 2016</span>
+</div>
+
+<div class="role-item">
+    <div class="role-title">Finance Controller, CIS market unit <span class="role-date">(May 2011 – Sep 2016)</span></div>
+    <p>CIS market unit: snacks, beverages, dairy (Беларусь, Центральная Азия, Кавказ)</p>
+    <ul>
+        <li>Финансовая и управленческая отчетность, Cash flow, Internal Control</li>
+        <li>Консолидация результатов недавно приобретенных бизнесов</li>
+        <li>Создание единой системы отчетности с нуля</li>
+        <li>Внедрение Политик и контрольных процедур, Unified ERP для CIS</li>
+    </ul>
+</div>
+
+<div class="role-item">
+    <div class="role-title">Finance Director, Ural‑Siberia region <span class="role-date">(Jul 2007 – May 2011)</span></div>
+    <p>Крупнейший регион РФ: 30 центров дистрибуции, собственный завод напитков</p>
+    <ul>
+        <li>Полный цикл финансов: бюджетирование, управление выручкой и маржой, ROI, Cost effectiveness</li>
+        <li>Руководство и развитие команды ~30 человек</li>
+        <li>Партнерство с Sales и Operations, трансформационные проекты (M&A, организационные изменения)</li>
+    </ul>
+</div>
+
+<!-- КЛЮЧЕВЫЕ КЕЙСЫ (выделенные блоки) -->
+<h2>Ключевые проекты & достижения</h2>
+<table class="cases-table" style="width:100%">
+    <tr>
+        <td style="width:50%; background:#ffffff;">
+            <div class="case-title">📊 Finance transformation & Cost controlling</div>
+            <div class="case-tag">Philip Morris | 2025</div>
+            <p>Оптимизация циклов бюджетирования, автоматизация закрытия затрат, увеличение ROI. Лидерство команды 20 человек.</p>
+        </td>
+        <td style="width:50%; background:#ffffff;">
+            <div class="case-title">🗄️ Unified ERP & Reporting System</div>
+            <div class="case-tag">PepsiCo CIS | 2012-2016</div>
+            <p>Создана единая ERP-система для 5 стран СНГ, внедрены политики контроля, консолидация отчетов acquired businesses.</p>
+        </td>
+    </tr>
+    <tr>
+        <td style="background:#ffffff;">
+            <div class="case-title">🌍 New Operating Model – Morocco</div>
+            <div class="case-tag">PM Maghreb | 2022</div>
+            <p>Реализация новой модели работы с дистрибьютором в Марокко, повышение эффективности FP&A.</p>
+        </td>
+        <td style="background:#ffffff;">
+            <div class="case-title">⚙️ CAPEX & Productivity Maximization</div>
+            <div class="case-tag">Operations Finance | 2023-2025</div>
+            <p>Внедрение zero-loss культуры, KPI производительности, управление CAPEX с фокусом на ROI.</p>
+        </td>
+    </tr>
+</table>
+
+<!-- ИНСТРУМЕНТЫ (теги) -->
+<h2>Технологический стек</h2>
+<div class="tools-tags">
+    <span class="tool-tag">📊 Excel (Advanced)</span>
+    <span class="tool-tag">📈 Power BI</span>
+    <span class="tool-tag">☁️ SAP / Oracle</span>
+    <span class="tool-tag">📉 Tableau</span>
+    <span class="tool-tag">🧩 Anaplan</span>
+    <span class="tool-tag">🗄️ 1С / Hyperion</span>
+    <span class="tool-tag">🔀 SAP BPC</span>
+    <span class="tool-tag">📋 Jira / Confluence</span>
+</div>
+
+<!-- ОБРАЗОВАНИЕ + SOFT SKILLS (разделение на две колонки) -->
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 28px 0;">
+    <div style="flex: 1; min-width: 200px;">
+        <div class="education-box">
+            <div style="font-size: 32px;">🎓</div>
+            <h3 style="margin: 8px 0 6px; color:#1e4660;">Образование</h3>
+            <p><strong>East Siberian State Technological University (Jun’2000)</strong><br>BA (HONS) Accounting & Audit</p>
+        </div>
+    </div>
+    <div style="flex: 2; background: #f8fafc; border-radius: 18px; padding: 18px 22px;">
+        <h3 style="margin-top: 0;">🌟 Лидерские качества & Soft skills</h3>
+        <div>
+            <span class="tool-tag" style="background:#eef2ff;">🧠 Аналитическое мышление</span>
+            <span class="tool-tag" style="background:#eef2ff;">⏱️ Управление приоритетами</span>
+            <span class="tool-tag" style="background:#eef2ff;">🤝 Построение доверия</span>
+            <span class="tool-tag" style="background:#eef2ff;">🔄 Постоянное улучшение</span>
+            <span class="tool-tag" style="background:#eef2ff;">📈 Принятие решений</span>
+            <span class="tool-tag" style="background:#eef2ff;">🔄 Адаптивность</span>
+        </div>
+        <p style="margin-top: 18px; font-size: 12pt; color:#2c3e50;"><i>Финансовое лидерство | Трансформация | Результат</i></p>
+    </div>
+</div>
+
+<hr>
+<div class="footer">
+    © 2025 Финансовый директор / Head of FP&A — Открыт для новых вызовов и стратегических проектов
+</div>
+
+</body>
+</html>
